@@ -1,3 +1,6 @@
+import * as React from "react";
+import { FileText } from "lucide-react";
+
 export default function MedicalVAPortfolio() {
   return (
     <div className="min-h-screen bg-white text-gray-900 p-6">
@@ -6,7 +9,7 @@ export default function MedicalVAPortfolio() {
           Roxanne N. Cabanilla, Virtual Medical Assistant
         </h1>
         <p className="text-center text-lg text-gray-700 mb-8">
-          Specializing in Insurance Medical Claim Review, Appeals & Denials, Itemized Billing Analysis, and Home Health & Skilled Nursing Facility Chart QA. Expert in Medicare and CMS Guidelines.
+          Specializing in Insurance Medical Claim Review, Appeals &amp; Denials, Itemized Billing Analysis, and Home Health &amp; Skilled Nursing Facility Chart QA. Expert in Medicare and CMS Guidelines.
         </p>
 
         <div className="flex justify-center mb-6">
@@ -23,23 +26,23 @@ export default function MedicalVAPortfolio() {
           <div className="border rounded-xl p-6 shadow-sm">
             <h2 className="text-2xl font-semibold mb-2">Core Specializations</h2>
             <ul className="space-y-2 text-gray-700 list-disc list-inside">
-              <li>Insurance Claim Reviews & Appeals</li>
-              <li>Denial Management & Resolution</li>
+              <li>Insurance Claim Reviews &amp; Appeals</li>
+              <li>Denial Management &amp; Resolution</li>
               <li>Itemized Medical Billing Review</li>
               <li>Home Health Chart Audits</li>
               <li>Skilled Nursing QA Evaluations</li>
-              <li>Medicare & CMS Compliance</li>
+              <li>Medicare &amp; CMS Compliance</li>
             </ul>
           </div>
 
           <div className="border rounded-xl p-6 shadow-sm">
             <h2 className="text-2xl font-semibold mb-2">Professional Edge</h2>
             <ul className="space-y-2 text-gray-700 list-disc list-inside">
-              <li>9+ Years in Nursing & Healthcare QA</li>
-              <li>Team Leadership & Remote Oversight</li>
-              <li>Skilled in UB-04 Review & CMS Compliance</li>
+              <li>9+ Years in Nursing &amp; Healthcare QA</li>
+              <li>Team Leadership &amp; Remote Oversight</li>
+              <li>Skilled in UB-04 Review &amp; CMS Compliance</li>
               <li>QA-Focused, HIPAA Certified Professional</li>
-              <li>Proven Track Record in Home Health & Utilization Review</li>
+              <li>Proven Track Record in Home Health &amp; Utilization Review</li>
             </ul>
           </div>
         </section>
@@ -48,7 +51,7 @@ export default function MedicalVAPortfolio() {
           <div className="border rounded-xl p-6 shadow-sm">
             <h2 className="text-2xl font-semibold mb-4">Success Stories</h2>
             <p className="text-gray-700 mb-2">
-              "Roxanne's precision in claim reviews has significantly improved our appeal win rates. Her knowledge of Medicare policies is unmatched."
+              Roxanne&apos;s precision in claim reviews has significantly improved our appeal win rates. Her knowledge of Medicare policies is unmatched.
             </p>
             <p className="text-gray-700 italic text-right">– Director, Home Health Agency</p>
           </div>
@@ -86,7 +89,7 @@ export default function MedicalVAPortfolio() {
 
         <section className="mb-10">
           <div className="border rounded-xl p-6 shadow-sm">
-            <h2 className="text-2xl font-semibold mb-4">Blog & Insights</h2>
+            <h2 className="text-2xl font-semibold mb-4">Blog &amp; Insights</h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li><a href="#" className="text-blue-700 hover:underline">Understanding CMS Guidelines for Home Health</a></li>
               <li><a href="#" className="text-blue-700 hover:underline">How to Effectively Appeal Medical Claim Denials</a></li>
@@ -96,9 +99,9 @@ export default function MedicalVAPortfolio() {
         </section>
 
         <section className="text-center mb-10">
-          <h2 className="text-2xl font-bold mb-4">Let's Connect</h2>
+          <h2 className="text-2xl font-bold mb-4">Let&apos;s Connect</h2>
           <p className="text-gray-700 mb-4">
-            Ready to streamline your insurance processes and ensure compliance? Let’s work together.
+            Ready to streamline your insurance processes and ensure compliance? Let&apos;s work together.
           </p>
           <form
             action="https://formspree.io/f/xwkgoygy"
