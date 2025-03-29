@@ -1,6 +1,3 @@
-import * as React from "react";
-import { FileText } from "lucide-react";
-
 export default function MedicalVAPortfolio() {
   return (
     <div className="min-h-screen bg-white text-gray-900 p-6">
@@ -121,4 +118,3 @@ export default function MedicalVAPortfolio() {
     </div>
   );
 }
-
